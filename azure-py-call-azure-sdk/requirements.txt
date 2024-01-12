@@ -1,3 +1,5 @@
 pulumi>=3.5.1,<4.0.0
 pulumi-azure-native>=1.14.0,<2.0.0
 azure-mgmt-authorization>=1.0.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
